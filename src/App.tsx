@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 type AppPropsType =
@@ -22,6 +21,7 @@ setTodos([])
     },[])
     return (
         <div className="App">
+            <h1>this is test page</h1>
             <button onClick={onClickHandler}>CLEN POSTS</button>
 
             <ul>
